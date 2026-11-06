@@ -1,0 +1,9 @@
+cfd/
+PaddleScience/
+data/
+models/
+outputs/
+.mplconfig/
+__pycache__/
+*.py[cod]
+.DS_Store

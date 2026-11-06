@@ -1,0 +1,11 @@
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu118/
+
+# GPU runtime used for the verified experiment.
+paddlepaddle-gpu==3.3.0
+
+# Direct numerical and plotting dependencies used by analyze_re1000_error.py.
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.10.9
+
+# PaddleScience itself is installed from the pinned source commit described in README.md.
