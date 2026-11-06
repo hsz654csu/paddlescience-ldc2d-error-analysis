@@ -1,0 +1,42 @@
+{
+  "case": "LDC2D steady Re=1000 official pretrained model",
+  "device": "gpu:0",
+  "grid_shape": [
+    128,
+    128
+  ],
+  "near_wall_definition": {
+    "fraction_of_side_length": 0.1,
+    "distance_threshold": 0.1
+  },
+  "global": {
+    "point_count": 16384,
+    "relative_l2": 0.0777718366118056,
+    "mse": 0.0005266317636842767,
+    "rmse": 0.022948458852050973,
+    "mae": 0.017195215241451706,
+    "p95_absolute_error": 0.03119254857301711,
+    "p99_absolute_error": 0.03690646767616272,
+    "max_absolute_error": 1.0028048753738403
+  },
+  "near_wall": {
+    "point_count": 5980,
+    "relative_l2": 0.07693766929448892,
+    "mse": 0.000627677313407127,
+    "rmse": 0.025053489046580456,
+    "mae": 0.01180511638649987,
+    "p95_absolute_error": 0.034798535704612735,
+    "p99_absolute_error": 0.04957727521657944,
+    "max_absolute_error": 1.0028048753738403
+  },
+  "core": {
+    "point_count": 10404,
+    "relative_l2": 0.07843294623754186,
+    "mse": 0.0004685529106140495,
+    "rmse": 0.021646083031672255,
+    "mae": 0.020293330500257164,
+    "p95_absolute_error": 0.03061923533678055,
+    "p99_absolute_error": 0.03217366278171539,
+    "max_absolute_error": 0.035044580698013306
+  }
+}

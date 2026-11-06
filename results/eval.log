@@ -1,0 +1,8 @@
+[2026/11/06 15:05:25] ppsci MESSAGE: 'shuffle' and 'drop_last' are both set to False in default as sampler config is not specified.
+[2026/11/06 15:05:25] ppsci INFO: Auto collation is disabled and set num_workers to 0 to speed up batch sampling.
+[2026/11/06 15:05:25] ppsci MESSAGE: Finish loading pretrained model from: ../../../outputs/deliverables/ai4cfd_re1000/models/ldc_re1000_sota_pretrained.pdparams
+[2026/11/06 15:05:25] ppsci INFO: Using paddlepaddle 3.3.0(cbf3469) on device Place(gpu:0)
+[2026/11/06 15:05:25] ppsci INFO: [Eval][Iter 1/4] U_validator/loss: 0.00071, batch_cost: 0.06232s, reader_cost: 0.00155s, ips: 65725.83, eta: 0:00:00
+[2026/11/06 15:05:25] ppsci INFO: [Eval][Iter 4/4] U_validator/loss: 0.00053, batch_cost: 0.00149s, reader_cost: 0.00011s, ips: 2756501.83, eta: 0:00:00
+[2026/11/06 15:05:25] ppsci INFO: [Eval][Avg] U_validator/loss: 0.00053, U_validator/L2Rel.U: 0.07777
+[2026/11/06 15:05:25] ppsci INFO: Saving figure to ../../../outputs/deliverables/ai4cfd_re1000/run_user/ac.png

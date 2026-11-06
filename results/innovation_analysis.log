@@ -1,0 +1,53 @@
+Script started on 2026-11-06 15:10:36+08:00 [<not executed on terminal>]
+/home/iamhsz/Documents/Codex/2026-11-06/linux-codex-cfd-1-2-3/PaddleScience/cfd/lib/python3.10/site-packages/paddle/utils/cpp_extension/extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+W1106 15:10:37.955039 49266 gpu_resources.cc:116] Please NOTE: device: 0, GPU Compute Capability: 8.9, Driver API Version: 12.2, Runtime API Version: 11.8
+[2026/11/06 15:10:38] ppsci WARNING: Logger has already been automatically initialized as `log_file` is set to None by default, information will only be printed to terminal without writing to any file.
+[2026/11/06 15:10:38] ppsci MESSAGE: Finish loading pretrained model from: /home/iamhsz/Documents/Codex/2026-11-06/linux-codex-cfd-1-2-3/outputs/deliverables/ai4cfd_re1000/models/ldc_re1000_sota_pretrained.pdparams
+[2026/11/06 15:10:38] ppsci INFO: Using paddlepaddle 3.3.0(cbf3469) on device Place(gpu:0)
+{
+  "case": "LDC2D steady Re=1000 official pretrained model",
+  "device": "gpu:0",
+  "grid_shape": [
+    128,
+    128
+  ],
+  "near_wall_definition": {
+    "fraction_of_side_length": 0.1,
+    "distance_threshold": 0.1
+  },
+  "global": {
+    "point_count": 16384,
+    "relative_l2": 0.0777718366118056,
+    "mse": 0.0005266317636842767,
+    "rmse": 0.022948458852050973,
+    "mae": 0.017195215241451706,
+    "p95_absolute_error": 0.03119254857301711,
+    "p99_absolute_error": 0.03690646767616272,
+    "max_absolute_error": 1.0028048753738403
+  },
+  "near_wall": {
+    "point_count": 5980,
+    "relative_l2": 0.07693766929448892,
+    "mse": 0.000627677313407127,
+    "rmse": 0.025053489046580456,
+    "mae": 0.01180511638649987,
+    "p95_absolute_error": 0.034798535704612735,
+    "p99_absolute_error": 0.04957727521657944,
+    "max_absolute_error": 1.0028048753738403
+  },
+  "core": {
+    "point_count": 10404,
+    "relative_l2": 0.07843294623754186,
+    "mse": 0.0004685529106140495,
+    "rmse": 0.021646083031672255,
+    "mae": 0.020293330500257164,
+    "p95_absolute_error": 0.03061923533678055,
+    "p99_absolute_error": 0.03217366278171539,
+    "max_absolute_error": 0.035044580698013306
+  }
+}
+Saved metrics to /home/iamhsz/Documents/Codex/2026-11-06/linux-codex-cfd-1-2-3/outputs/deliverables/ai4cfd_re1000/innovation/region_metrics.json
+Saved figure to /home/iamhsz/Documents/Codex/2026-11-06/linux-codex-cfd-1-2-3/outputs/deliverables/ai4cfd_re1000/innovation/reference_prediction_error.png
+
+Script done on 2026-11-06 15:10:39+08:00 [COMMAND_EXIT_CODE="0"]
